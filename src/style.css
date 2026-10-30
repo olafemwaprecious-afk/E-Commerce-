@@ -46,3 +46,12 @@
   header .top>.search{grid-column:1 / -1;grid-row:2;width:100%;margin:0}
   .logo-mark{flex-basis:36px}
 }
+
+/* Keep product-card controls and labels within their cards at narrow widths. */
+.product-info{min-width:0}
+.card-eyebrow{flex-wrap:wrap;justify-content:flex-start;column-gap:8px;row-gap:3px}
+.card-eyebrow .verified-label{margin-left:auto;white-space:normal}
+.card-bottom{flex-wrap:wrap;row-gap:8px}
+.card-shipping{min-width:0;line-height:1.35}
+.card-shipping svg,.mini-cart svg{flex-shrink:0}
+.mini-cart{flex-shrink:0;margin-left:auto}
